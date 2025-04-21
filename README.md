@@ -37,8 +37,8 @@ Welcome to the **APRIL** project! This application is a multi-functional Streaml
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/nhatnguyen1926-mic/ai-coding-tutor.git
-   cd ai-coding-tutor
+   git clone https://github.com/nhatnguyen1926-mic/APRIL-PROJECT.git
+   cd APRIL-PROJECT
    ```
 
 2. **Set up a virtual environment**:
