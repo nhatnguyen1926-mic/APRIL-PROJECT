@@ -35,19 +35,46 @@ Welcome to the **AI Coding Tutor** project! This application is a multi-function
 
 ## Installation
 
-1. Clone the repository:
+1. **Clone the repository**:
    ```bash
    git clone https://github.com/nhatnguyen1926-mic/ai-coding-tutor.git
    cd ai-coding-tutor
+   ```
 
- 2.Create a virtual environment:
- python3 -m venv myenv
- source myenv/bin/activate
+2. **Set up a virtual environment**:
+   ```bash
+   python3 -m venv myenv
+   source myenv/bin/activate  # On Windows: myenv\Scripts\activate
+   ```
 
- 3. Install dependencies:
- pip install -r requirements.txt
+3. **Install dependencies**:
+   ```bash
+   pip install -r requirements.txt
+   ```
 
- 4.Set up environment variables:
-  + Create a ".env" file in the root directory
-  + Add your OpenAI API key:
-  OPENAI_API_KEY = your_openai_api_key
+4. **Set up environment variables**:
+   Add the following line to your `.env` file:
+   ```bash
+   OPENAI_API_KEY=your_openai_api_key
+   ```
+
+5. **Run the application**:
+   ```bash
+   streamlit run main.py
+   ```
+
+## Project Structure
+
+```
+.
+├── [main.py](http://_vscodecontentref_/0)                # Entry point for the Streamlit app
+├── views/                 # Contains individual app pages
+│   ├── 1_👦🏻about_me.py    # About Me page
+│   ├── 2_🏠_chat-with-jarvis.py  # Chat with JARVIS page
+│   ├── 3_💻_code_analysis.py    # Code Analysis page
+│   ├── 4_✍️_essay_mentor.py     # Essay Mentor page
+├── profile/               # Contains profile assets (e.g., images)
+├── [requirements.txt](http://_vscodecontentref_/1)       # Python dependencies
+├── .env                   # Environment variables
+└── [README.md](http://_vscodecontentref_/2)              # Project documentation
+```
