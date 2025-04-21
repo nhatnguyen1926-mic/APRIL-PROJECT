@@ -32,7 +32,7 @@ st.write(
     I am a passionate learner, currently focusing on exploring more the field of Computer Science, with a special interest in Artificial Intelligence.  
     I self-studied the CS50x course by Harvard University through YouTube lectures and problem sets. Initially, I majored in English, but I quickly fell in love with the excitement and challenge of pushing myself outside my comfort zone, especially through troubleshooting bugs and designing creative features.  
 
-    My project, **'AI Coding Tutor'**, inspired by the CS50 Duck Debugger, reflects my dedication to continuous growth in Computer Science. I’m particularly excited about delving deeper into areas such as machine learning and natural language processing.
+    My project, **'APRIL'**, inspired by the CS50 Duck Debugger, reflects my dedication to continuous growth in Computer Science. I’m particularly excited about delving deeper into areas such as machine learning and natural language processing.
     """
 )
 
