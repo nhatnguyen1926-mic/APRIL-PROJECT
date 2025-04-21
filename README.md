@@ -67,7 +67,7 @@ Welcome to the **APRIL** project! This application is a multi-functional Streaml
 
 ```
 .
-├── [main.py](http://_vscodecontentref_/0)                # Entry point for the Streamlit app
+├── [main.py]              # Entry point for the Streamlit app
 ├── views/                 # Contains individual app pages
 │   ├── 1_👦🏻about_me.py    # About Me page
 │   ├── 2_🏠_chat-with-jarvis.py  # Chat with JARVIS page
