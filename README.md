@@ -1,6 +1,6 @@
-# AI Coding Tutor
+# APRIL (A Promise in Inner Longing)
 
-Welcome to the **AI Coding Tutor** project! This application is a multi-functional Streamlit-based platform designed to assist users in coding, debugging, essay mentoring, and learning computer science concepts. It leverages OpenAI's GPT-4 model to provide intelligent feedback and guidance.
+Welcome to the **APRIL** project! This application is a multi-functional Streamlit-based platform designed to assist users in coding, debugging, essay mentoring, and learning computer science concepts. It leverages OpenAI's GPT-4 model to provide intelligent feedback and guidance.
 
 ## Features
 
