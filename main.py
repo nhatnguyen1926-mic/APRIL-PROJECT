@@ -3,22 +3,22 @@ import streamlit as st
 # --- PAGE SETUP ---
 
 about_page = st.Page(
-  page ="views/1_👦🏻about_me.py",
+  page ="views/1_about_me.py",
   title = "About Me",
   default= True,
   )
 
 project_1_page = st.Page(
-  page = "views/2_🏠_chat-with-jarvis.py",
+  page = "views/2_chat-with-jarvis.py",
   title = "Chat With Jarvis",
 )
 
 project_2_page = st.Page(
-  page = "views/3_💻_code_analysis.py",
+  page = "views/3_code_analysis.py",
   title = "Jarvis Debugger Mode",
 )
 project_3_page = st.Page(
-  page = "views/4_✍️_essay_mentor.py",
+  page = "views/4_essay_mentor.py",
   title = "Essay Mentor"
 )
 
