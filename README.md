@@ -66,21 +66,19 @@ APRIL consists of four main features:
    streamlit run main.py
    ```
 
-Tech Stack
-This project was built using the following technologies:
+###  Tech Stack
 
-Frontend:
+###  Frontend
+- **Streamlit** – For building an intuitive, interactive web interface.
+- **Streamlit Ace** – Code editor with syntax highlighting and customizable themes.
 
-Streamlit: For building the interactive web-based user interface.
-Streamlit Ace: For the code editor with syntax highlighting.
-Backend:
+###  Backend & AI
+- **OpenAI GPT-4** – Powers the AI features for coding, debugging, and essay mentoring.
+- **Python** – Core language used to build the entire application.
 
-OpenAI GPT-4: For natural language processing and AI-powered assistance.
-Python: Core programming language for the application.
-Environment Management:
+###  Environment & Configuration
+- **Python Dotenv** – Manages environment variables securely via a `.env` file.
 
-Python Dotenv: For managing environment variables.
-Code Quality:
-
-Pylint: For linting and ensuring code quality.
-Flake8: For style guide enforcement.
+###  Code Quality Tools
+- **Pylint** – Enforces coding standards and detects code issues.
+- **Flake8** – Ensures adherence to Python style guides.
