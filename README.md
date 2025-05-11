@@ -43,24 +43,19 @@ APRIL consists of four main features:
 
 ## Installation
 
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/nhatnguyen1926-mic/APRIL-PROJECT.git
-   cd APRIL-PROJECT
-   ```
 
-2. **Set up a virtual environment**:
-   ```bash
+1. **Set up a virtual environment**:
+```bash
    python3 -m venv myenv
    source myenv/bin/activate  # On Windows: myenv\Scripts\activate
-   ```
+```
 
-3. **Install dependencies**:
+2. **Install dependencies**:
    ```bash
    pip install -r requirements.txt
    ```
 
-4. **Set up environment variables**:
+3. **Set up environment variables**:
    Add the following line to your `.env` file:
    ```bash
    OPENAI_API_KEY=your_openai_api_key
@@ -71,18 +66,21 @@ APRIL consists of four main features:
    streamlit run main.py
    ```
 
-## Project Structure
+Tech Stack
+This project was built using the following technologies:
 
-```
-.
-├── [main.py]              # Entry point for the Streamlit app
-├── views/                 # Contains individual app pages
-│   ├── 1_👦🏻about_me.py    # About Me page
-│   ├── 2_🏠_chat-with-jarvis.py  # Chat with JARVIS page
-│   ├── 3_💻_code_analysis.py    # Code Analysis page
-│   ├── 4_✍️_essay_mentor.py     # Essay Mentor page
-├── profile/               # Contains profile assets (e.g., images)
-├── [requirements.txt](http://_vscodecontentref_/1)       # Python dependencies
-├── .env                   # Environment variables
-└── [README.md](http://_vscodecontentref_/2)              # Project documentation
-```
+Frontend:
+
+Streamlit: For building the interactive web-based user interface.
+Streamlit Ace: For the code editor with syntax highlighting.
+Backend:
+
+OpenAI GPT-4: For natural language processing and AI-powered assistance.
+Python: Core programming language for the application.
+Environment Management:
+
+Python Dotenv: For managing environment variables.
+Code Quality:
+
+Pylint: For linting and ensuring code quality.
+Flake8: For style guide enforcement.
