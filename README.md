@@ -1,8 +1,16 @@
-# APRIL 
+# APRIL: AI-Powered Learning Platform
 
-Welcome to the **APRIL** project! This application is a multi-functional Streamlit-based platform designed to assist users in coding, debugging, essay mentoring, and learning computer science concepts. It leverages OpenAI's GPT-4 model to provide intelligent feedback and guidance.
+## Overview
 
-## Features
+**APRIL** is a multi-functional Streamlit-based platform designed to assist users in coding, debugging, essay mentoring, and learning computer science concepts. It leverages OpenAI's GPT-4 model to provide intelligent feedback and guidance. This project was inspired by the CS50 Duck Debugger and aims to help users enhance their programming and writing skills interactively.
+
+## Video Demo
+
+[![Watch the Demo](https://img.youtube.com/vi/BG2TIJh1r70/0.jpg)](https://youtu.be/BG2TIJh1r70)  
+
+## Description
+
+APRIL consists of four main features:
 
 ### 1. About Me
 - A personal introduction page showcasing the developer's background, achievements, and interests.

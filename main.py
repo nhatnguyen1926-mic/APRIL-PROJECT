@@ -5,12 +5,12 @@ import streamlit as st
 about_page = st.Page(
   page ="views/1_👦🏻about_me.py",
   title = "About Me",
+  default= True,
   )
 
 project_1_page = st.Page(
   page = "views/2_🏠_chat-with-jarvis.py",
   title = "Chat With Jarvis",
-  default = True,
 )
 
 project_2_page = st.Page(
